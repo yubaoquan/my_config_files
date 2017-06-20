@@ -130,6 +130,25 @@
         // 花括号前加空格
         space-before-blocks: error,
         // 禁止使用未声明的变量
-        no-undef: 2
+        no-undef: 2,
+        arrow-spacing: error,
+        prefer-arrow-callback: [error, {
+            allowUnboundThis: false,
+            allowNamedFunctions: true
+        }],
+        prefer-const: error,
+        spaced-comment: [error, always, {
+            exceptions: ["-", "+"]
+        }],
+        padded-blocks: [error, never],
+        object-curly-spacing: [error, always],
+        max-len: [error, 100, {
+            ignoreComments: true,
+            ignoreUrls: true,
+            ignoreStrings: true,
+            ignoreTemplateLiterals: true,
+            ignoreRegExpLiterals: true
+        }],
+        space-infix-ops: error
     }
 }
