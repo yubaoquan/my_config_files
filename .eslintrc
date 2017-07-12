@@ -172,6 +172,11 @@
             ignoreDestructuring: false,
             ignoreImport: false,
             ignoreExport: false
-        }]
+        }],
+        // 禁止 var a = 1,
+        //         b = 2;
+        // 必须 var a = 1;
+        //     var b = 2;
+        one-var: [error, never]
     }
 }
