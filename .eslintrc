@@ -134,11 +134,6 @@
         // 禁止使用未声明的变量
         no-undef: 2,
         arrow-spacing: error,
-        // 回调使用箭头函数
-        prefer-arrow-callback: [error, {
-            allowUnboundThis: false,
-            allowNamedFunctions: true
-        }],
         // let和const优先使用const
         prefer-const: error,
         // 注释双斜杠后加一个空格, ----和++++例外
