@@ -172,6 +172,9 @@
         //         b = 2;
         // 必须 var a = 1;
         //     var b = 2;
-        one-var: [error, never]
+        one-var: [error, never],
+        // Disallow arrow functions where they could be confused with comparisons
+        no-confusing-arrow: [error, {allowParens: true}],
+        arrow-parens: [error, always]
     }
 }
