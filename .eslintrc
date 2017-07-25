@@ -22,16 +22,16 @@
         no-tabs: error,
         //缩进一律四个空格
         indent: [error, 4, {
-        //case用一个缩进
-             SwitchCase: 1 ,
-             //变量声明用一个缩进
-             VariableDeclarator: 1 ,
-             outerIIFEBody: 1 ,
-             MemberExpression: 1 ,
-             FunctionDeclaration: {body: 1, parameters: 2} ,
-             FunctionExpression: {body: 1, parameters: 2} ,
-             CallExpression: {arguments: 1}
-             }
+            // case用一个缩进
+                SwitchCase: 1 ,
+                // 变量声明用一个缩进
+                VariableDeclarator: 1 ,
+                outerIIFEBody: 1 ,
+                MemberExpression: 1 ,
+                FunctionDeclaration: { body: 1, parameters: 1 },
+                FunctionExpression: { body: 1, parameters: 1 },
+                CallExpression: { arguments: 1 }
+            }
         ],
         //不允许多个空行
         no-multiple-empty-lines: error,
