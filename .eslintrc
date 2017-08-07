@@ -175,6 +175,7 @@
         one-var: [error, never],
         // Disallow arrow functions where they could be confused with comparisons
         no-confusing-arrow: [error, {allowParens: true}],
-        arrow-parens: [error, always]
+        arrow-parens: [error, always],
+        no-var: error,
     }
 }
