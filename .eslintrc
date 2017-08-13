@@ -177,5 +177,6 @@
         no-confusing-arrow: [error, {allowParens: true}],
         arrow-parens: [error, always],
         no-var: error,
+        no-const-assign: error,
     }
 }
