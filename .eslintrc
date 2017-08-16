@@ -50,7 +50,7 @@
         //禁止逗号前置
         comma-style: [error, last],
         // 对象/数组结尾逗号
-        comma-dangle: [error, always],
+        comma-dangle: [error, always-multiline],
         //禁止在在计算的属性的方括号中使用空格
         computed-property-spacing: [error, never],
         //强制使用1tbs风格的代码块括号 见http://eslint.cn/docs/rules/brace-style
