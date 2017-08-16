@@ -39,8 +39,6 @@
         space-before-function-paren: [error, never],
         //禁止在圆括号内使用空格, ( 左括号右边和右括号左边 )
         space-in-parens: [error, never],
-        //禁止在数组的方括号内使用空格, 同上
-        array-bracket-spacing: [error, never],
         //在一元操作符前后使用空格: 保留字允许空格, 操作符不允许空格
         space-unary-ops: [
             error, {
@@ -51,6 +49,8 @@
         comma-spacing: [error, { before: false, after: true }],
         //禁止逗号前置
         comma-style: [error, last],
+        // 对象/数组结尾逗号
+        comma-dangle: [error, always],
         //禁止在在计算的属性的方括号中使用空格
         computed-property-spacing: [error, never],
         //强制使用1tbs风格的代码块括号 见http://eslint.cn/docs/rules/brace-style
