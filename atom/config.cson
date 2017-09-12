@@ -1,0 +1,79 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "dd11ce2f-53bf-4614-b06a-6f276525eb4d"
+    js:
+      end_with_comma: true
+      end_with_newline: true
+  "atom-terminal":
+    app: "iTerm.app"
+    args: "."
+  "auto-close-html2":
+    selfCloseTags: [
+      "br"
+      "img"
+      "hr"
+      "#case"
+      "#default"
+      "#break"
+    ]
+  autosave:
+    enabled: true
+  core:
+    allowPendingPaneItems: false
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.css.less": [
+        "mcss"
+      ]
+    disabledPackages: [
+      "double-tag"
+    ]
+    openEmptyEditorOnStart: false
+    reopenProjectMenuCount: 20
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "dbclick-tree-view":
+    enableOnFile: false
+  docblockr:
+    extra_tags: [
+      "@date"
+    ]
+  editor:
+    fontFamily: "monaco"
+    fontSize: 21
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "f54dbe67-33e5-459c-a235-674198299ab5"
+  "find-and-replace":
+    scrollToResultOnLiveSearch: true
+  "linter-ui-default":
+    panelHeight: 56
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "seti-ui":
+    compactView: true
+  "tree-view":
+    autoReveal: true
+  "vim-mode-plus":
+    autoSelectPersistentSelectionOnOperate: false
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    flashOnOperate: false
+    ignoreCaseForSearch: true
+  welcome:
+    showOnStartup: false
+".lisp.source":
+  editor:
+    showIndentGuide: false
+rce:
+  editor:
+    showIndentGuide: false
