@@ -9,6 +9,10 @@
     app: "iTerm.app"
     args: "."
   "auto-close-html2":
+    enabledFileTypes: [
+      "html"
+      "ftl"
+    ]
     selfCloseTags: [
       "br"
       "img"
@@ -54,8 +58,10 @@
     userId: "f54dbe67-33e5-459c-a235-674198299ab5"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  github:
+    viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "linter-ui-default":
-    panelHeight: 56
+    panelHeight: 138
   minimap:
     plugins:
       "highlight-selected": true
@@ -69,6 +75,8 @@
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
     flashOnOperate: false
     ignoreCaseForSearch: true
+    smoothScrollOnFullScrollMotion: true
+    smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
 ".lisp.source":
