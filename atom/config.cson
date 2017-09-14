@@ -71,6 +71,7 @@
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+    scrollAnimation: true
   "seti-ui":
     compactView: true
   "tree-view":
@@ -80,8 +81,10 @@
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
-    flashOnOperate: false
+    ignoreCaseForFind: true
     ignoreCaseForSearch: true
+    keymapSemicolonToInnerAnyPairInOperatorPendingMode: true
+    keymapSemicolonToInnerAnyPairInVisualMode: true
     smoothScrollOnFullScrollMotion: true
     smoothScrollOnHalfScrollMotion: true
   welcome:
