@@ -93,8 +93,8 @@
         no-caller: error,
         //禁止不必要的 .call() 和 .apply()
         no-useless-call: error,
-        //this的别名强制使用self
-        consistent-this: [error, self],
+        //this的别名强制使用ctx
+        consistent-this: [error, ctx],
         //禁止使用eval
         no-eval: error,
         //禁止使用__proto__

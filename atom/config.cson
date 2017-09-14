@@ -5,6 +5,9 @@
     js:
       end_with_comma: true
       end_with_newline: true
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
   "atom-terminal":
     app: "iTerm.app"
     args: "."
@@ -12,6 +15,7 @@
     enabledFileTypes: [
       "html"
       "ftl"
+      "jsx"
     ]
     selfCloseTags: [
       "br"
@@ -32,6 +36,7 @@
       ]
     disabledPackages: [
       "double-tag"
+      "keybinding-resolver"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -70,6 +75,8 @@
     compactView: true
   "tree-view":
     autoReveal: true
+  "tree-view-click":
+    enableOnFile: false
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
