@@ -8,6 +8,12 @@
   "atom-ide-ui":
     "atom-ide-diagnostics-ui":
       showDiagnosticTraces: true
+      useExperimentalUi: true
+    use: {}
+  "atom-package-deps":
+    ignored: [
+      "linter-eslint"
+    ]
   "atom-terminal":
     app: "iTerm.app"
     args: "."
@@ -28,7 +34,6 @@
   autosave:
     enabled: true
   core:
-    allowPendingPaneItems: false
     closeDeletedFileTabs: true
     customFileTypes:
       "source.css.less": [
@@ -46,8 +51,6 @@
       "atom-dark-ui"
       "atom-dark-syntax"
     ]
-  "dbclick-tree-view":
-    enableOnFile: false
   docblockr:
     extra_tags: [
       "@date"
@@ -66,7 +69,8 @@
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "linter-ui-default":
-    panelHeight: 138
+    panelHeight: 155
+    showPanel: true
   minimap:
     plugins:
       "highlight-selected": true
@@ -77,7 +81,10 @@
   "tree-view":
     autoReveal: true
   "tree-view-click":
-    enableOnFile: false
+    allowPending: false
+  "tree-view-frequent-menu":
+    mode: "singleButton"
+    singleButtonType: "closePane"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
