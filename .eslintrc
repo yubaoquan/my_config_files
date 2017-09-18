@@ -36,7 +36,11 @@
         //不允许多个空行
         no-multiple-empty-lines: error,
         //禁止在 function的左括号之前使用空格
-        space-before-function-paren: [error, never],
+        space-before-function-paren: [error, {
+            named: never,
+            anonymous: never,
+            asyncArrow: always
+        }],
         //禁止在圆括号内使用空格, ( 左括号右边和右括号左边 )
         space-in-parens: [error, never],
         //在一元操作符前后使用空格: 保留字允许空格, 操作符不允许空格
