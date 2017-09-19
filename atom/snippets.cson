@@ -138,23 +138,35 @@
         prefix: '/*'
         body: '/* $1 */'
     'function':
-        prefix: 'fn'
+        prefix: 'f'
         body: '''
             function($1) {
-
+                $2
             }
         '''
     'arrowFunction':
-        prefix: 'afn'
+        prefix: 'af'
         body: '''
             ($1) => {
-
+                $2
             }
         '''
     'namedFunction':
-        prefix: 'fnn'
+        prefix: 'fn'
         body: '''
             function $1($2) {
-
+                $3
             }
+        '''
+    'propertyFunction':
+        prefix: 'pf'
+        body: '''
+            $1($2) {
+                $3
+            },
+        '''
+    'functionCall':
+        prefix: 'c',
+        body: '''
+            $1($2);
         '''
