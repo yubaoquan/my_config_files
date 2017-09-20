@@ -170,3 +170,27 @@
         body: '''
             $1($2);
         '''
+    'exportDefault':
+        prefix: 'ed',
+        body: '''
+            export default {
+                $1
+            };
+        '''
+    'exportDefaultFunction':
+        prefix: 'ef',
+        body: '''
+            export default $1;
+        '''
+    'export':
+        prefix: 'ex'
+        body: '''
+            export {
+                $1
+            };
+        '''
+    'import':
+        prefix: 'im'
+        body: '''
+            import $1 from '$2';
+        '''
