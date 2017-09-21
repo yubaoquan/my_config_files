@@ -30,6 +30,8 @@
       "#case"
       "#default"
       "#break"
+      "#else"
+      "#elseif"
     ]
   autosave:
     enabled: true
@@ -41,7 +43,7 @@
       ]
     disabledPackages: [
       "keybinding-resolver"
-      "package-cop"
+      "ide-typescript"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -67,6 +69,8 @@
     userId: "f54dbe67-33e5-459c-a235-674198299ab5"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  "git-control":
+    showGitFlowButton: false
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "linter-ui-default":
@@ -87,13 +91,12 @@
     askForSureBeforeDelete: false
     copy: true
     cut: true
-    delete: true
     duplicate: true
-    newFile: true
-    newFolder: true
+    findAndReplace: true
+    findInDirectory: true
     paste: true
-    rename: true
-    singleButtonType: "close"
+    searchInDirectory: true
+    singleButtonType: "delete"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
