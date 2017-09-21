@@ -194,3 +194,8 @@
         body: '''
             import $1 from '$2';
         '''
+    'return':
+        prefix: 'r'
+        body: '''
+            return $1;
+        '''
