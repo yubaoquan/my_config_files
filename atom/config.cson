@@ -35,6 +35,7 @@
     ]
   autosave:
     enabled: true
+  "backspace-until-not-whitespace": {}
   core:
     closeDeletedFileTabs: true
     customFileTypes:
@@ -91,12 +92,10 @@
     askForSureBeforeDelete: false
     copy: true
     cut: true
+    delete: true
     duplicate: true
-    findAndReplace: true
-    findInDirectory: true
     paste: true
-    searchInDirectory: true
-    singleButtonType: "delete"
+    singleButtonType: "findAndReplace"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
