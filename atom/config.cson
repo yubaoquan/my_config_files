@@ -33,6 +33,9 @@
       "#else"
       "#elseif"
     ]
+  "autocomplete-plus":
+    autoActivationDelay: 400
+    backspaceTriggersAutocomplete: true
   autosave:
     enabled: true
   "backspace-until-not-whitespace": {}
@@ -90,11 +93,6 @@
     allowPending: false
   "tree-view-frequent-menu":
     askForSureBeforeDelete: false
-    copy: true
-    cut: true
-    delete: true
-    duplicate: true
-    paste: true
     singleButtonType: "findAndReplace"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
