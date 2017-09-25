@@ -5,6 +5,11 @@
     js:
       end_with_comma: true
       end_with_newline: true
+  "atom-clock":
+    dateFormat: "HH:mm:ss"
+    locale: "zh-cn"
+    refreshInterval: 1
+    showTooltip: true
   "atom-ide-ui":
     "atom-ide-diagnostics-ui":
       showDiagnosticTraces: true
@@ -13,6 +18,7 @@
   "atom-package-deps":
     ignored: [
       "linter-eslint"
+      "go-signature-statusbar"
     ]
   "atom-terminal":
     app: "iTerm.app"
@@ -48,6 +54,7 @@
     disabledPackages: [
       "keybinding-resolver"
       "ide-typescript"
+      "atom-beautify"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -92,8 +99,17 @@
   "tree-view-click":
     allowPending: false
   "tree-view-frequent-menu":
+    delete: true
+    mode: "singleButton"
+    newFile: true
+    singleButtonType: "delete"
+  "tree-view-menu":
     askForSureBeforeDelete: false
-    singleButtonType: "findAndReplace"
+    delete: true
+    newFile: true
+    newFolder: true
+    searchInDirectory: true
+    singleButtonType: "searchInDirectory"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true

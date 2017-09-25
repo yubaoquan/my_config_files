@@ -148,6 +148,8 @@
         padded-blocks: [error, never],
         // 要求花括号内有空格 (除了 {})
         object-curly-spacing: [error, always],
+        // if else 后必须加花括号
+        curly: error,
         // 一行最大长度
         max-len: [error, 100, {
             ignoreComments: true,
