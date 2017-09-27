@@ -23,7 +23,9 @@
 '.source.js':
     '星号注释':
         prefix: '/*'
-        body: '/* $1 */'
+        body: '''
+            /* $1 */$0
+        '''
     'function':
         prefix: 'f'
         body: '''
@@ -55,69 +57,81 @@
     'methodCall':
         prefix: '.',
         body: '''
-            .$1($2);
+            .$1($2)
         '''
     'functionCall':
         prefix: 'c',
         body: '''
-            $1($2);
+            $1($2)
         '''
     'exportDefault':
         prefix: 'ed',
         body: '''
             export default {
                 $1
-            };
+            }
         '''
     'exportDefaultFunction':
         prefix: 'ef',
         body: '''
-            export default $1;
+            export default $1
+        '''
+    'exportDefaultObjectAssign':
+        prefix: 'eo',
+        body: '''
+            export default Object.assign({}, $1, {
+                $2
+            })
         '''
     'export':
         prefix: 'ex'
         body: '''
             export {
                 $1
-            };
+            }
         '''
     'import':
         prefix: 'im'
         body: '''
-            import $1 from '$2';
+            import $1 from '$2'
         '''
     'return':
         prefix: 'r'
         body: '''
-            return $1;
+            return $1
         '''
     'console.info':
         prefix: 'ci'
         body: '''
-            console.info($1);
+            console.info($1)
         '''
     'console.infoString':
         prefix: 'cis'
         body: '''
-        console.info('$1');
+        console.info('$1')
         '''
     'console.error':
         prefix: 'ce'
         body: '''
-            console.error($1);
+            console.error($1)
         '''
     'console.errorString':
         prefix: 'ces',
         body: '''
-            console.error('$1');
+            console.error('$1')
         '''
     'constDeclare':
         prefix: 'co'
         body: '''
-            const $1 = $2;
+            const $1 = $2
         '''
     'letDeclare':
         prefix: 'lt'
         body: '''
-            let $1 = $2;
+            let $1 = $2
+        '''
+    'document.createElement':
+        prefix: 'doc',
+        body: '''
+            document.createElement('$1')
         '''

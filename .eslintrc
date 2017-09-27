@@ -14,8 +14,8 @@
     globals: {
     },
     rules: {
-        //句尾强制加分号
-        semi: [error, always],
+        //句尾强制不加分号
+        semi: [error, never],
         //不允许空格和tab混用
         no-mixed-spaces-and-tabs: error,
         //不允许使用tab

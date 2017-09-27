@@ -54,7 +54,6 @@
     disabledPackages: [
       "keybinding-resolver"
       "ide-typescript"
-      "atom-beautify"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -106,8 +105,10 @@
   "tree-view-menu":
     askForSureBeforeDelete: false
     delete: true
+    ignore: true
     newFile: true
     newFolder: true
+    rename: true
     searchInDirectory: true
     singleButtonType: "searchInDirectory"
   "vim-mode-plus":
@@ -122,6 +123,9 @@
     smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
+".js.source":
+  editor:
+    autoIndent: true
 ".lisp.source":
   editor:
     showIndentGuide: false
