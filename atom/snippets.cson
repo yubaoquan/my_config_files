@@ -118,12 +118,12 @@
     'constDeclare':
         prefix: 'co'
         body: '''
-            const $1 = $2
+            const $1
         '''
     'letDeclare':
         prefix: 'lt'
         body: '''
-            let $1 = $2
+            let $1
         '''
     'document.createElement':
         prefix: 'doc',

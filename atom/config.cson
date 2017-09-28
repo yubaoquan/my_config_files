@@ -40,7 +40,6 @@
       "#elseif"
     ]
   "autocomplete-plus":
-    autoActivationDelay: 400
     backspaceTriggersAutocomplete: true
   autosave:
     enabled: true
