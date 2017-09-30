@@ -124,19 +124,19 @@
         //要求调用无参构造函数时有圆括号
         new-parens: error,
         // 禁用 debugger
-        no-debugger: 2,
+        no-debugger: error,
         // 禁止 function 定义中出现重名参数
-        no-dupe-args: 2,
+        no-dupe-args: error,
         // 禁止对象字面量中出现重复的 key
-        no-dupe-keys: 2,
+        no-dupe-keys: error,
         // 禁止对 function 声明重新赋值
-        no-func-assign: 2,
+        no-func-assign: error,
         // 警告未使用的变量
-        no-unused-vars: 1,
+        no-unused-vars: [error, { vars: all, args: none }],
         // 花括号前加空格
         space-before-blocks: error,
         // 禁止使用未声明的变量
-        no-undef: 2,
+        no-undef: error,
         arrow-spacing: error,
         // let和const优先使用const
         prefer-const: error,
@@ -161,11 +161,11 @@
         // 要求中缀操作符周围有空格 a + b
         space-infix-ops: error,
         // 避免使用不必要的字符串拼接 var a = '1' + '0';
-        no-useless-concat: 2,
+        no-useless-concat: error,
         // 多行字符串要相加，而不是用链接符
         no-multi-str: 1,
         // 字符串使用单引号
-        quotes: [2, single, { allowTemplateLiterals: true }],
+        quotes: [error, single, { allowTemplateLiterals: true }],
         // 禁止同名导入/导出
         // import { foo as foo } from "bar";
         // export { foo as foo };
@@ -175,9 +175,9 @@
             ignoreExport: false
         }],
         // 禁止 var a = 1,
-        //         b = 2;
+        //         b = error;
         // 必须 var a = 1;
-        //     var b = 2;
+        //     var b = error;
         one-var: [error, never],
         // Disallow arrow functions where they could be confused with comparisons
         no-confusing-arrow: [error, {allowParens: true}],
