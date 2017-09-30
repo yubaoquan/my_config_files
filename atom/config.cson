@@ -52,7 +52,6 @@
       ]
     disabledPackages: [
       "keybinding-resolver"
-      "ide-typescript"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -103,13 +102,15 @@
     singleButtonType: "delete"
   "tree-view-menu":
     askForSureBeforeDelete: false
+    commandToDispatch: "window:reload"
     delete: true
+    dispatch: true
     ignore: true
     newFile: true
     newFolder: true
     rename: true
     searchInDirectory: true
-    singleButtonType: "searchInDirectory"
+    singleButtonType: "dispatch"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
