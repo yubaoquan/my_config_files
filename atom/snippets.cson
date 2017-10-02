@@ -121,7 +121,7 @@
             const $1
         '''
     'letDeclare':
-        prefix: 'lt'
+        prefix: 'le'
         body: '''
             let $1
         '''
@@ -168,10 +168,17 @@
                 $2
             })
         '''
-    'returnNewPromise':
-        prefix: 'rp'
+    'newPromise':
+        prefix: 'pr'
         body: '''
-            return new Promise((resolve, reject) => {
+            new Promise((resolve, reject) => {
                 $1
+            })
+        '''
+    'then':
+        prefix: 'then'
+        body: '''
+            then(($1) => {
+                $2
             })
         '''
