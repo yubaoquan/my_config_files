@@ -68,7 +68,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "monaco"
-    fontSize: 21
+    fontSize: 22
     showIndentGuide: true
     showInvisibles: true
     tabLength: 4
@@ -102,14 +102,25 @@
     singleButtonType: "delete"
   "tree-view-menu":
     askForSureBeforeDelete: false
+    collapse: true
+    collapseOtherFolders: true
+    "collapseOtherFolders-alias": " CoOther"
     commandToDispatch: "window:reload"
+    copy: true
     delete: true
     dispatch: true
+    "dispatch-alias": "reload"
     ignore: true
+    menuButtonWidth: 70
+    menuWidth: 250
     newFile: true
+    "newFile-alias": "File"
     newFolder: true
+    "newFolder-alias": "Folder"
+    paste: true
     rename: true
     searchInDirectory: true
+    "searchInDirectory-alias": " Search"
     singleButtonType: "dispatch"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
