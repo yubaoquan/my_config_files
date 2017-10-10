@@ -44,6 +44,8 @@
   autosave:
     enabled: true
   "backspace-until-not-whitespace": {}
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
   core:
     closeDeletedFileTabs: true
     customFileTypes:
@@ -52,6 +54,10 @@
       ]
     disabledPackages: [
       "keybinding-resolver"
+      "auto-close-html2"
+      "atom-ide-ui"
+      "open-on-github"
+      "ide-typescript"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -69,8 +75,11 @@
   editor:
     fontFamily: "monaco"
     fontSize: 22
+    preferredLineLength: 120
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrap: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
@@ -83,7 +92,6 @@
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "linter-ui-default":
     panelHeight: 155
-    showPanel: true
   minimap:
     plugins:
       "highlight-selected": true
@@ -110,7 +118,7 @@
     delete: true
     dispatch: true
     "dispatch-alias": "reload"
-    ignore: true
+    "findAndReplace-alias": " Find"
     menuButtonWidth: 70
     menuWidth: 250
     newFile: true
@@ -130,6 +138,7 @@
     keymapCCToChangeInnerSmartWord: true
     keymapSemicolonToInnerAnyPairInOperatorPendingMode: true
     keymapSemicolonToInnerAnyPairInVisualMode: true
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
     smoothScrollOnFullScrollMotion: true
     smoothScrollOnHalfScrollMotion: true
   welcome:

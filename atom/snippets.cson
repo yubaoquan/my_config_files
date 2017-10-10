@@ -182,3 +182,189 @@
                 $2
             })
         '''
+    'catch':
+        prefix: 'catch',
+        body: '''
+            catch(($1) => {
+                $2
+            })
+        '''
+    'value':
+        prefix: ':',
+        body: '''
+            : $2,
+        '''
+'.source.ts':
+    '星号注释':
+        prefix: '/*'
+        body: '''
+            /* $1 */$0
+        '''
+    'function':
+        prefix: 'f'
+        body: '''
+            function($1) {
+                $2
+            }
+        '''
+    'arrowFunction':
+        prefix: 'af'
+        body: '''
+            ($1) => {
+                $2
+            }
+        '''
+    'namedFunction':
+        prefix: 'fn'
+        body: '''
+            function $1($2) {
+                $3
+            }
+        '''
+    'propertyFunction':
+        prefix: ' pf'
+        body: '''
+            ($1) {
+                $2
+            },
+        '''
+    'exportDefault':
+        prefix: 'ed',
+        body: '''
+            export default {
+                $1
+            }
+        '''
+    'exportDefaultFunction':
+        prefix: 'ef',
+        body: '''
+            export default $1
+        '''
+    'exportDefaultObjectAssign':
+        prefix: 'eda',
+        body: '''
+            export default Object.assign({}, $1, {
+                $2
+            })
+        '''
+    'export':
+        prefix: 'ex'
+        body: '''
+            export {
+                $1
+            }
+        '''
+    'import':
+        prefix: 'im'
+        body: '''
+            import $1 from '$2'
+        '''
+    'importAndPickProperty':
+        prefix: 'imp'
+        body: '''
+            import { $1 } from '$2'
+        '''
+    'return':
+        prefix: 'r'
+        body: '''
+            return $1
+        '''
+    'console.info':
+        prefix: 'ci'
+        body: '''
+            console.info($1)
+        '''
+    'console.infoString':
+        prefix: 'cis'
+        body: '''
+        console.info('$1')
+        '''
+    'console.error':
+        prefix: 'ce'
+        body: '''
+            console.error($1)
+        '''
+    'console.errorString':
+        prefix: 'ces',
+        body: '''
+            console.error('$1')
+        '''
+    'constDeclare':
+        prefix: 'co'
+        body: '''
+            const $1
+        '''
+    'letDeclare':
+        prefix: 'le'
+        body: '''
+            let $1
+        '''
+    'document.createElement':
+        prefix: 'doc',
+        body: '''
+            document.createElement('$1')
+        '''
+    'forLoop':
+        prefix: 'for'
+        body: '''
+            for ($1; $2; $3) {
+                $4
+            }
+        '''
+    'try':
+        prefix: 'try'
+        body: '''
+            try {
+                $1
+            } catch (e) {
+
+            }
+        '''
+    'async':
+        prefix: 'as'
+        body: 'async '
+    'await':
+        prefix: 'aw'
+        body: 'await '
+    'TODO':
+        prefix: 'todo'
+        body: '// TODO'
+    'ObjectCreate':
+        prefix: 'oc'
+        body: 'Object.create($1)'
+    'ObjectAssign':
+        prefix: 'oa'
+        body: 'Object.assign($1)'
+    'forEach':
+        prefix: 'fe'
+        body: '''
+            forEach(($1) => {
+                $2
+            })
+        '''
+    'newPromise':
+        prefix: 'pr'
+        body: '''
+            new Promise((resolve, reject) => {
+                $1
+            })
+        '''
+    'then':
+        prefix: 'then'
+        body: '''
+            then(($1) => {
+                $2
+            })
+        '''
+    'catch':
+        prefix: 'catch',
+        body: '''
+            catch(($1) => {
+                $2
+            })
+        '''
+    'value':
+        prefix: ':',
+        body: '''
+            : $2,
+        '''
