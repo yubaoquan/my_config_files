@@ -1,8 +1,32 @@
 {
-  "extends": [
-    "tslint-eslint-rules"
-  ],
-  "rules": {
-    
+    "extends": [
+        "tslint-eslint-rules"
+    ],
+    "rules": {
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "no-extra-semi": true,
+    "semicolon": [true, "never"],
+    "whitespace": [
+        true,
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-module",
+        "check-separator",
+        "check-rest-spread",
+        "check-type",
+        "check-typecast",
+        "check-type-operator",
+        "check-preblock"
+    ],
+    "no-trailing-whitespace": true,
+    "one-line": [
+        true,
+        "check-open-brace",
+        "check-else",
+        "check-catch",
+        "check-finally",
+        "check-whitespace"
+    ]
   }
 }

@@ -11,8 +11,10 @@
     refreshInterval: 1
     showTooltip: true
   "atom-ide-ui":
+    "atom-ide-code-format": {}
     "atom-ide-diagnostics-ui":
       showDiagnosticTraces: true
+      showDirectoryColumn: true
       useExperimentalUi: true
     use: {}
   "atom-package-deps":
@@ -52,12 +54,14 @@
       "source.css.less": [
         "mcss"
       ]
+    debugLSP: false
     disabledPackages: [
       "keybinding-resolver"
       "auto-close-html2"
-      "atom-ide-ui"
       "open-on-github"
-      "ide-typescript"
+      "intentions"
+      "linter-ui-default"
+      "linter"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -90,8 +94,10 @@
     showGitFlowButton: false
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
+  "linter-tslint":
+    fixOnSave: true
   "linter-ui-default":
-    panelHeight: 155
+    panelHeight: 138
   minimap:
     plugins:
       "highlight-selected": true
@@ -143,12 +149,16 @@
     smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
+  zentabs: {}
 ".js.source":
   editor:
     autoIndent: true
 ".lisp.source":
   editor:
     showIndentGuide: false
+".source.ts":
+  editor:
+    showInvisibles: true
 rce:
   editor:
     showIndentGuide: false
