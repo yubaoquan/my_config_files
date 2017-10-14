@@ -62,6 +62,21 @@
       "intentions"
       "linter-ui-default"
       "linter"
+      "ide-typescript"
+      "package-cop"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
     ]
     openEmptyEditorOnStart: false
     reopenProjectMenuCount: 20
@@ -88,25 +103,51 @@
     tabType: "soft"
   "exception-reporting":
     userId: "f54dbe67-33e5-459c-a235-674198299ab5"
+  "file-icons":
+    coloured: false
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   "git-control":
     showGitFlowButton: false
+  "git-plus":
+    diffs:
+      wordDiff: true
+    experimental:
+      useSplitDiff: true
+    remoteInteractions:
+      pullAutostash: true
+      pullBeforePush: true
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "linter-tslint":
     fixOnSave: true
   "linter-ui-default":
     panelHeight: 138
+    useBusySignal: false
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
     scrollAnimation: true
+  "platformio-ide-terminal":
+    core:
+      workingDirectory: "Active File"
+    style:
+      defaultPanelHeight: "150px"
+      fontSize: "15"
+    toggles:
+      autoClose: true
   "seti-ui":
     compactView: true
+  "split-diff":
+    ignoreWhitespace: true
+    syncHorizontalScroll: true
+    turnOffSoftWrap: true
+  "tool-bar":
+    position: "Left"
   "tree-view":
     autoReveal: true
+    hideIgnoredNames: true
   "tree-view-click":
     allowPending: false
   "tree-view-frequent-menu":
@@ -125,6 +166,7 @@
     dispatch: true
     "dispatch-alias": "reload"
     "findAndReplace-alias": " Find"
+    keepSearchTextAfterSearch: true
     menuButtonWidth: 70
     menuWidth: 250
     newFile: true
@@ -132,6 +174,7 @@
     newFolder: true
     "newFolder-alias": "Folder"
     paste: true
+    position: "left"
     rename: true
     searchInDirectory: true
     "searchInDirectory-alias": " Search"
@@ -150,6 +193,9 @@
   welcome:
     showOnStartup: false
   zentabs: {}
+".basic.html.text":
+  editor:
+    autoIndent: true
 ".js.source":
   editor:
     autoIndent: true
