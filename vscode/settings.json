@@ -8,5 +8,12 @@
     "window.nativeTabs": true,
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
-    "files.autoGuessEncoding": true
+    "files.autoGuessEncoding": true,
+    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.integrated.fontFamily": "monaco",
+    "workbench.editor.enablePreview": false,
+    "git.confirmSync": false,
+    "files.associations": {
+        "*.mcss": "less"
+    }
 }

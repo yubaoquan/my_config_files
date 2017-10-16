@@ -57,13 +57,6 @@
     'exportDefault':
         prefix: 'ed',
         body: '''
-            export default {
-                $1
-            }
-        '''
-    'exportDefaultFunction':
-        prefix: 'ef',
-        body: '''
             export default $1
         '''
     'exportDefaultObjectAssign':
