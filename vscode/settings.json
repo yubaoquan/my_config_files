@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 22,
+    "editor.fontFamily": "Monaco",
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "window.nativeTabs": true,
+    "window.restoreWindows": "all",
+    "window.openFoldersInNewWindow": "on",
+    "files.autoGuessEncoding": true
+}

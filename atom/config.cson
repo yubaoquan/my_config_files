@@ -115,7 +115,6 @@
     experimental:
       useSplitDiff: true
     remoteInteractions:
-      pullAutostash: true
       pullBeforePush: true
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
