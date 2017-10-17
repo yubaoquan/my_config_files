@@ -57,13 +57,8 @@
     debugLSP: false
     disabledPackages: [
       "keybinding-resolver"
-      "auto-close-html2"
       "open-on-github"
-      "intentions"
-      "linter-ui-default"
-      "linter"
-      "ide-typescript"
-      "package-cop"
+      "auto-close-html2"
     ]
     ignoredNames: [
       ".git"
@@ -93,7 +88,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "monaco"
-    fontSize: 22
+    fontSize: 20
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
@@ -101,6 +96,7 @@
     softWrap: true
     tabLength: 4
     tabType: "soft"
+  emmet: {}
   "exception-reporting":
     userId: "f54dbe67-33e5-459c-a235-674198299ab5"
   "file-icons":
@@ -191,7 +187,8 @@
     smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
-  zentabs: {}
+  zentabs:
+    maximumOpenedTabs: 6
 ".basic.html.text":
   editor:
     autoIndent: true
