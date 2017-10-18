@@ -137,9 +137,9 @@
         //禁止对symbol使用new操作符
         "no-new-symbol": "error",
         //尽可能使用点号取属性
-        " dot-notation": "error",
+        "dot-notation": "error",
         //当没有严格要求时，禁止对象字面量属性名称使用引号
-        " quote-props": [
+        "quote-props": [
             "error",
             "as-needed"
         ],
@@ -157,9 +157,9 @@
         //禁止使用eval
         "no-eval": "error",
         //禁止使用__proto__
-        "  no-proto": "error",
+        "no-proto": "error",
         //禁止使用with语句
-        " no-with": "error",
+        "no-with": "error",
         //禁用 __iterator__ 属性
         "no-iterator": "error",
         //禁用void操作符
@@ -179,9 +179,9 @@
         //要求调用无参构造函数时有圆括号
         "new-parens": "error",
         // 禁用 debugger
-        " no-debugger": "error",
+        "no-debugger": "error",
         // 禁止 function 定义中出现重名参数
-        " no-dupe-args": "error",
+        "no-dupe-args": "error",
         // 禁止对象字面量中出现重复的 key
         "no-dupe-keys": "error",
         // 禁止对 function 声明重新赋值

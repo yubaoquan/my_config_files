@@ -41,6 +41,7 @@
       "#else"
       "#elseif"
     ]
+    slashTriggerAutoClose: false
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
   autosave:
@@ -59,6 +60,7 @@
       "keybinding-resolver"
       "open-on-github"
       "linter"
+      "atom-terminal"
     ]
     ignoredNames: [
       ".git"
@@ -156,11 +158,10 @@
     collapse: true
     collapseOtherFolders: true
     "collapseOtherFolders-alias": " CoOther"
-    commandToDispatch: "window:reload"
+    commandToDispatch: "atom-terminal:open"
     copy: true
     delete: true
-    dispatch: true
-    "dispatch-alias": "reload"
+    "dispatch-alias": "terminal"
     "findAndReplace-alias": " Find"
     keepSearchTextAfterSearch: true
     menuButtonWidth: 70
@@ -170,11 +171,12 @@
     newFolder: true
     "newFolder-alias": "Folder"
     paste: true
-    position: "left"
     rename: true
     searchInDirectory: true
     "searchInDirectory-alias": " Search"
     singleButtonType: "dispatch"
+    terminal: true
+    terminalApp: "iTerm.app"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
