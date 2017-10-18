@@ -58,7 +58,7 @@
     disabledPackages: [
       "keybinding-resolver"
       "open-on-github"
-      "auto-close-html2"
+      "linter"
     ]
     ignoredNames: [
       ".git"
@@ -83,7 +83,8 @@
     ]
   docblockr:
     extra_tags: [
-      "@date"
+      "@date {{date}}"
+      "@author yubaoquan"
     ]
     extra_tags_go_after: true
   editor:
@@ -200,6 +201,7 @@
     showIndentGuide: false
 ".source.ts":
   editor:
+    showIndentGuide: true
     showInvisibles: true
 rce:
   editor:
