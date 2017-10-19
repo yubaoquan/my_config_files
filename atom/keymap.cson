@@ -36,15 +36,20 @@
     'cmd-d': 'editor:duplicate-lines'
     'cmd-left': 'pane:show-previous-item'
     'cmd-right': 'pane:show-next-item'
+
 'body':
     'cmd-left': 'pane:show-previous-item'
     'cmd-right': 'pane:show-next-item'
+
 'atom-text-editor[data-grammar~="ftl"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+
 'atom-text-editor[data-grammar~="vue"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+
 '.platform-darwin':
     'cmd-t': 'atom-terminal:open'
+
 '.github-CommitView-editor atom-text-editor:not([mini])':
     'cmd-up': 'github:push'
     'cmd-down': 'github:pull'

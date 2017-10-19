@@ -90,7 +90,7 @@
     ]
     extra_tags_go_after: true
   editor:
-    fontFamily: "monaco"
+    fontFamily: "Monaco"
     fontSize: 20
     preferredLineLength: 120
     scrollPastEnd: true
