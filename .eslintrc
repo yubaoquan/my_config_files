@@ -13,23 +13,17 @@
     },
     "globals": {},
     "rules": {
-        //句尾强制不加分号
         "semi": [
             "error",
             "never"
         ],
-        //不允许空格和tab混用
         "no-mixed-spaces-and-tabs": "error",
-        //不允许使用tab
         "no-tabs": "error",
-        //缩进一律四个空格
         "indent": [
             "error",
             4,
             {
-                // case用一个缩进
                 "SwitchCase": 1,
-                // 变量声明用一个缩进
                 "VariableDeclarator": 1,
                 "outerIIFEBody": 1,
                 "MemberExpression": 1,

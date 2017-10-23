@@ -163,6 +163,7 @@
     delete: true
     "dispatch-alias": "terminal"
     "findAndReplace-alias": " Find"
+    ignore: true
     keepSearchTextAfterSearch: true
     menuButtonWidth: 70
     menuWidth: 250
