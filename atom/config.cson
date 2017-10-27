@@ -80,7 +80,7 @@
     restorePreviousWindowsOnStart: "always"
     telemetryConsent: "limited"
     themes: [
-      "atom-dark-ui"
+      "one-dark-ui"
       "atom-dark-syntax"
     ]
   docblockr:
@@ -156,7 +156,6 @@
   "tree-view-menu":
     askForSureBeforeDelete: false
     collapse: true
-    collapseOtherFolders: true
     "collapseOtherFolders-alias": " CoOther"
     commandToDispatch: "atom-terminal:open"
     copy: true
@@ -175,7 +174,7 @@
     rename: true
     searchInDirectory: true
     "searchInDirectory-alias": " Search"
-    singleButtonType: "dispatch"
+    singleButtonType: "delete"
     terminal: true
     terminalApp: "iTerm.app"
   "vim-mode-plus":
