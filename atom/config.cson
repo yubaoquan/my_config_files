@@ -6,7 +6,7 @@
       end_with_comma: true
       end_with_newline: true
   "atom-clock":
-    dateFormat: "HH:mm:ss"
+    dateFormat: "YYYY-MM-DD HH:mm:ss"
     locale: "zh-cn"
     refreshInterval: 1
     showTooltip: true
