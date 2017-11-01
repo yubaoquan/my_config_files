@@ -91,7 +91,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
-    fontSize: 20
+    fontSize: 18
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true

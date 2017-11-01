@@ -96,7 +96,7 @@
     'console.infoString':
         prefix: 'cis'
         body: '''
-        console.info('$1')
+        console.info(`$1`)
         '''
     'console.error':
         prefix: 'ce'
@@ -266,7 +266,7 @@
     'console.infoString':
         prefix: 'cis'
         body: '''
-        console.info('$1')
+        console.info(`$1`)
         '''
     'console.error':
         prefix: 'ce'
