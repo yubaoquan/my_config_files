@@ -1,9 +1,18 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "lib": ["es7", "dom"],
+        "baseUrl": "./",
+        "paths": {
+            "js/*": ["javascript/*"],
+            "common/*": ["javascript/common/*"],
+            "component/*": ["javascript/component/*"],
+            "mcss/*": ["mcss/*"]
+        }
     },
     "include": [
         "src/**/*"
