@@ -13,6 +13,7 @@
   "atom-ide-ui":
     "atom-ide-code-format": {}
     "atom-ide-diagnostics-ui":
+      autoVisibility: true
       showDiagnosticTraces: true
       showDirectoryColumn: true
       useExperimentalUi: true
@@ -81,7 +82,7 @@
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "atom-dark-syntax"
+      "seti-syntax"
     ]
   docblockr:
     extra_tags: [
@@ -91,7 +92,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
-    fontSize: 18
+    fontSize: 16
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
