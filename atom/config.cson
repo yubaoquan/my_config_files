@@ -41,6 +41,7 @@
       "#break"
       "#else"
       "#elseif"
+      "@include"
     ]
     slashTriggerAutoClose: false
   "autocomplete-plus":
@@ -92,7 +93,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
-    fontSize: 16
+    fontSize: 15
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
