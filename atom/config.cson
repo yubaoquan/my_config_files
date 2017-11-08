@@ -83,7 +83,7 @@
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "seti-syntax"
+      "seti-bloody-syntax"
     ]
   docblockr:
     extra_tags: [
