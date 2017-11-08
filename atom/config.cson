@@ -61,8 +61,6 @@
     disabledPackages: [
       "keybinding-resolver"
       "open-on-github"
-      "linter"
-      "atom-terminal"
     ]
     ignoredNames: [
       ".git"
