@@ -54,3 +54,5 @@
     'cmd-up': 'github:push'
     'cmd-down': 'github:pull'
     'cmd-right': 'github:fetch'
+'atom-text-editor':
+  'alt-cmd-/': 'block-comment:toggle'
