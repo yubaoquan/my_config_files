@@ -68,6 +68,8 @@
             "property-declaration",
             "variable-declaration",
             "member-variable-declaration"
-        ]
+        ],
+        "no-var-keyword": true,
+        "no-unused-variable": [true]
     }
 }

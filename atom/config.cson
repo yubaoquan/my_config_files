@@ -22,6 +22,7 @@
     ignored: [
       "linter-eslint"
       "go-signature-statusbar"
+      "atom-typescript"
     ]
   "atom-terminal":
     app: "iTerm.app"
