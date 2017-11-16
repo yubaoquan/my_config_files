@@ -186,11 +186,12 @@
     keymapCCToChangeInnerSmartWord: true
     keymapSemicolonToInnerAnyPairInOperatorPendingMode: true
     keymapSemicolonToInnerAnyPairInVisualMode: true
-    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
     smoothScrollOnFullScrollMotion: true
     smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
+  "zentabs-fix":
+    maximumOpenedTabs: 6
 ".basic.html.text":
   editor:
     autoIndent: true

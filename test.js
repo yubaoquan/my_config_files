@@ -2,6 +2,13 @@
 // ++++
 /* = */
 function a() {
+    const arr = []
+    const sth = arr
+    [1, 2, 3].forEach(n => {
+        console.info(n)
+    })
+
+    console.info(sth)
 
     for (let i = 0; i < 10; i++) {
         console.info(i);
