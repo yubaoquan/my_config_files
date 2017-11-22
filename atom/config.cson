@@ -92,7 +92,6 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
-    fontSize: 15
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
@@ -149,6 +148,7 @@
     hideIgnoredNames: true
   "tree-view-click":
     allowPending: false
+    openFolder: "singleClick"
   "tree-view-frequent-menu":
     delete: true
     mode: "singleButton"

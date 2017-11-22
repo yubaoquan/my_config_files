@@ -276,7 +276,7 @@
     'console.errorString':
         prefix: 'ces',
         body: '''
-            console.error('$1')
+            console.error(`$1`)
         '''
     'const':
         prefix: 'co'
