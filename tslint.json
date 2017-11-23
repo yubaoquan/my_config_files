@@ -54,6 +54,13 @@
             "always"
         ],
         "one-variable-per-declaration": true,
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "ban-keywords"
+        ],
         "prefer-const": true,
         "typedef-whitespace": [
             true,

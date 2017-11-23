@@ -1,7 +1,7 @@
 // This file is used 4 test the .eslintrc file.
 // ++++
 /* = */
-function a() {
+function a () {
     const arr = []
     const sth = arr
     [1, 2, 3].forEach(n => {
