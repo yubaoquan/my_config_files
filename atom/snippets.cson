@@ -83,6 +83,11 @@
         body: '''
             import { $1 } from '$2'
         '''
+    'importAs':
+        'prefix': 'ima'
+        body: '''
+            import * as $1 from '$2'
+        '''
     'return':
         prefix: 'r'
         body: '''
@@ -252,6 +257,11 @@
         prefix: 'imp'
         body: '''
             import { $1 } from '$2'
+        '''
+    'importAs':
+        'prefix': 'ima'
+        body: '''
+            import * as $1 from '$2'
         '''
     'return':
         prefix: 'r'
