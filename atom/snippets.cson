@@ -76,17 +76,22 @@
     'import':
         prefix: 'im'
         body: '''
-            import $1 from '$2'
+            import '$1'
         '''
-    'importAndPickProperty':
-        prefix: 'imp'
+    'importFrom':
+        prefix: 'imf'
         body: '''
-            import { $1 } from '$2'
+            import $1 from '$2'
         '''
     'importAs':
         'prefix': 'ima'
         body: '''
             import * as $1 from '$2'
+        '''
+    'importMulti':
+        'prefix': 'imm'
+        body: '''
+            import { $1 } from '$2'
         '''
     'return':
         prefix: 'r'
@@ -189,6 +194,36 @@
         '''
 
 '.source.ts':
+    'tPromiseAny ':
+        prefix: 'pa'
+        body: '''
+            Promise<any>
+        '''
+    'tAny':
+        prefix: 'a'
+        body: '''
+            any
+        '''
+    'tBoolean':
+        prefix: 'b'
+        body: '''
+            boolean
+        '''
+    'tString':
+        prefix: 's'
+        body: '''
+            string
+        '''
+    'tNumber':
+        prefix: 'n'
+        body: '''
+            number
+        '''
+    'tVoid':
+        prefix: 'v'
+        body: '''
+            void
+        '''
     '星号注释':
         prefix: '/*'
         body: '''
@@ -251,17 +286,22 @@
     'import':
         prefix: 'im'
         body: '''
-            import $1 from '$2'
+            import '$1'
         '''
-    'importAndPickProperty':
-        prefix: 'imp'
+    'importFrom':
+        prefix: 'imf'
         body: '''
-            import { $1 } from '$2'
+            import $1 from '$2'
         '''
     'importAs':
         'prefix': 'ima'
         body: '''
             import * as $1 from '$2'
+        '''
+    'importMulti':
+        'prefix': 'imm'
+        body: '''
+            import { $1 } from '$2'
         '''
     'return':
         prefix: 'r'

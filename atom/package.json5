@@ -13,6 +13,7 @@
         'git-diff',
         'git-plus',
         'highlight-selected',
+        'jumpy',
         'language-freemarker',
         'language-lisp',
         'language-pug',

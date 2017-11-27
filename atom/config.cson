@@ -92,6 +92,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
+    fontSize: 13
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
@@ -117,6 +118,8 @@
       pullBeforePush: true
   github:
     viewChangesForCurrentFileDiffPaneSplitDirection: "right"
+  jumpy:
+    fontSize: 0.9
   "linter-tslint":
     fixOnSave: true
   "linter-ui-default":
@@ -137,6 +140,7 @@
       autoClose: true
   "seti-ui":
     compactView: true
+  "sort-selected-elements": {}
   "split-diff":
     ignoreWhitespace: true
     syncHorizontalScroll: true
