@@ -194,8 +194,9 @@
     smoothScrollOnHalfScrollMotion: true
   welcome:
     showOnStartup: false
-  "zentabs-fix":
-    maximumOpenedTabs: 6
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "zentabs-fix": {}
 ".basic.html.text":
   editor:
     autoIndent: true
