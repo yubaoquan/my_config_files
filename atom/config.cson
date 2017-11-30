@@ -32,6 +32,7 @@
       "html"
       "ftl"
       "jsx"
+      "xml"
     ]
     selfCloseTags: [
       "br"
