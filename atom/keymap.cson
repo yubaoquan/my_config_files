@@ -50,9 +50,15 @@
 '.platform-darwin':
     'cmd-t': 'atom-terminal:open'
 
-'.github-CommitView-editor atom-text-editor:not([mini])':
+'atom-workspace .github-CommitView-editor atom-text-editor:not([mini])':
     'cmd-up': 'github:push'
     'cmd-down': 'github:pull'
     'cmd-right': 'github:fetch'
 'atom-text-editor':
   'alt-cmd-/': 'block-comment:toggle'
+
+'atom-workspace atom-text-editor:not(.mini), .tree-view':
+  'cmd-enter': 'jumpy:toggle'
+
+'atom-workspace atom-text-editor.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2, .tree-view.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2':
+  'cmd-enter': 'jumpy:clear'
