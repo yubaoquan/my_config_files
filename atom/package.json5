@@ -22,6 +22,7 @@
         'linter-tslint',
         'minimap',
         'minimap-highlight-selected',
+        'open-recent',
         'seti-icons',
         'sort-selected-elements',
         'split-diff',
