@@ -48,7 +48,7 @@
             }
         '''
     'propertyFunction':
-        prefix: ' pf'
+        prefix: 'pf'
         body: '''
             ($1) {
                 $2
@@ -265,7 +265,7 @@
             }
         '''
     'propertyFunction':
-        prefix: ' pf'
+        prefix: 'pf'
         body: '''
             ($1) {
                 $2
