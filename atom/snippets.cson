@@ -192,6 +192,20 @@
                 $2
             })
         '''
+    'timeout':
+        prefix: 'timeout'
+        body: '''
+            setTimeout(() => {
+                $1
+            })
+        '''
+    'interval':
+        prefix: 'interval'
+        body: '''
+            setInterval(() => {
+                $1
+            })
+        '''
 
 '.source.ts':
     'tPromiseAny ':
@@ -377,28 +391,42 @@
     'forEach':
         prefix: 'fe'
         body: '''
-            forEach(($1) => {
+            forEach(($1): void => {
                 $2
             })
         '''
     'newPromise':
         prefix: 'pr'
         body: '''
-            new Promise((resolve, reject) => {
+            new Promise((resolve: Function, reject: Function): void => {
                 $1
             })
         '''
     'then':
         prefix: 'then'
         body: '''
-            then(($1) => {
+            then(($1: any): void => {
                 $2
             })
         '''
     'catch':
         prefix: 'catch',
         body: '''
-            catch(($1) => {
+            catch(($1): void => {
                 $2
             })
         '''
+    'timeout':
+        prefix: 'timeout'
+        body: '''
+            setTimeout((): void => {
+                $1
+            })
+        '''
+    'interval':
+        prefix: 'interval'
+        body: '''
+            setInterval((): void => {
+                $1
+            })
+            '''
