@@ -159,8 +159,7 @@
     mode: "singleButton"
     newFile: true
     singleButtonType: "delete"
-  "tree-view-git-branch-fix":
-    location: "top"
+  "tree-view-git-branch-fix": {}
   "tree-view-menu":
     askForSureBeforeDelete: false
     collapse: true
