@@ -36,10 +36,13 @@
     'cmd-d': 'editor:duplicate-lines'
     'cmd-left': 'pane:show-previous-item'
     'cmd-right': 'pane:show-next-item'
+    'cmd-r': 'window:reload'
 
 'body':
     'cmd-left': 'pane:show-previous-item'
     'cmd-right': 'pane:show-next-item'
+    'cmd-r': 'window:reload'
+
 
 'atom-text-editor[data-grammar~="ftl"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
@@ -57,10 +60,10 @@
     'cmd-enter': 'github:commit'
 
 'atom-text-editor':
-  'alt-cmd-/': 'block-comment:toggle'
+    'alt-cmd-/': 'block-comment:toggle'
 
 'atom-workspace atom-text-editor:not(.mini), .tree-view':
-  'cmd-enter': 'jumpy:toggle'
+    'cmd-enter': 'jumpy:toggle'
 
 'atom-workspace atom-text-editor.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2, .tree-view.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2':
-  'cmd-enter': 'jumpy:clear'
+    'cmd-enter': 'jumpy:clear'
