@@ -23,6 +23,7 @@
       "linter-eslint"
       "go-signature-statusbar"
       "atom-typescript"
+      "linter-tslint"
     ]
   "atom-terminal":
     app: "iTerm.app"
@@ -63,6 +64,7 @@
     disabledPackages: [
       "keybinding-resolver"
       "open-on-github"
+      "project-viewer"
     ]
     ignoredNames: [
       ".git"
@@ -131,6 +133,8 @@
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
     scrollAnimation: true
+  "open-recent":
+    maxRecentDirectories: 30
   "platformio-ide-terminal":
     core:
       workingDirectory: "Active File"
@@ -139,6 +143,8 @@
       fontSize: "15"
     toggles:
       autoClose: true
+  "project-viewer":
+    dockOrPanel: true
   "seti-ui":
     compactView: true
   "sort-selected-elements": {}
@@ -159,7 +165,9 @@
     mode: "singleButton"
     newFile: true
     singleButtonType: "delete"
-  "tree-view-git-branch-fix": {}
+  "tree-view-git-branch-fix":
+    location: "before"
+    showRemote: true
   "tree-view-menu":
     askForSureBeforeDelete: false
     collapse: true
