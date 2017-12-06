@@ -67,3 +67,5 @@
 
 'atom-workspace atom-text-editor.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2, .tree-view.jumpy-jump-mode.jumpy-more-specific1.jumpy-more-specific2':
     'cmd-enter': 'jumpy:clear'
+'.platform-darwin, .platform-darwin .command-palette atom-text-editor':
+  'cmd-i': 'command-palette:toggle'
