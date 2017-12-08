@@ -213,6 +213,11 @@
         body: '''
             Promise<any>
         '''
+    'tPromiseVoid':
+        prefix: 'pv'
+        body: '''
+            Promise<void>
+        '''
     'tAny':
         prefix: 'a'
         body: '''
