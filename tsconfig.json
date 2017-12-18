@@ -1,6 +1,7 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
         "noImplicitAny": true,
         "noUnusedLocals": true,
         "removeComments": true,
