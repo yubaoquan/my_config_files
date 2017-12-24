@@ -285,6 +285,7 @@
                 "functions": false
             }
         ],
-        no-unexpected-multiline: "error"
+        no-unexpected-multiline: "error",
+        no-shadow-restricted-names: "error"
     }
 }

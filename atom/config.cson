@@ -110,6 +110,8 @@
     userId: "f54dbe67-33e5-459c-a235-674198299ab5"
   "file-icons":
     coloured: false
+  "file-types":
+    art: "text.html.js"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   "git-control":
@@ -126,6 +128,7 @@
   jumpy:
     fontSize: 0.9
     matchPattern: "([A-Z]+([0-9a-z])*)|[a-z0-9]{2,}|[\\(\\)\\[\\]{}]\\W"
+  "linter-eslint": {}
   "linter-tslint":
     fixOnSave: true
   "linter-ui-default":
