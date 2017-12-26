@@ -66,7 +66,6 @@
       "keybinding-resolver"
       "open-on-github"
       "tree-view-click"
-      "tree-view-panes"
     ]
     ignoredNames: [
       ".git"
@@ -97,7 +96,7 @@
     extra_tags_go_after: true
   editor:
     fontFamily: "Monaco"
-    fontSize: 13
+    fontSize: 12
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
@@ -197,6 +196,8 @@
     terminal: true
     terminalApp: "iTerm.app"
   "tree-view-panes": {}
+  "vertical-tabs":
+    setToRightSide: true
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
@@ -211,7 +212,8 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-  "zentabs-fix": {}
+  "zentabs-fix":
+    maximumOpenedTabs: 10
 ".basic.html.text":
   editor:
     autoIndent: true
