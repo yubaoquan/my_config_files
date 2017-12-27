@@ -198,6 +198,12 @@
   "tree-view-panes": {}
   "vertical-tabs":
     setToRightSide: true
+  "vertical-tabs-plus":
+    general:
+      scrollTabs: false
+      tabsPlacement: "tree-view"
+    tab:
+      height: "2em"
   "vim-mode-plus":
     autoSelectPersistentSelectionOnOperate: false
     automaticallyEscapeInsertModeOnActivePaneItemChange: true

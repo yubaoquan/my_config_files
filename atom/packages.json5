@@ -29,7 +29,7 @@
         'tree-view-click',
         'tree-view-git-branch-fix',
         'tree-view-menu',
-        'vertical-tabs',
+        'vertical-tabs-plus',
         'vim-mode-plus',
         'vim-mode-plus-keymaps-for-surround',
         'zentabs-fix',
