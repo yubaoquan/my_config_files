@@ -219,7 +219,7 @@
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "zentabs-fix":
-    maximumOpenedTabs: 10
+    maximumOpenedTabs: 15
 ".basic.html.text":
   editor:
     autoIndent: true
