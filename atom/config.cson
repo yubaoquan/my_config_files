@@ -94,6 +94,8 @@
       "@author yubaoquan"
     ]
     extra_tags_go_after: true
+  "double-tag":
+    allowEndTagSync: false
   editor:
     fontFamily: "Monaco"
     fontSize: 12
@@ -219,7 +221,7 @@
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "zentabs-fix":
-    maximumOpenedTabs: 15
+    maximumOpenedTabs: 20
 ".basic.html.text":
   editor:
     autoIndent: true

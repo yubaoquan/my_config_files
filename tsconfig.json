@@ -5,6 +5,8 @@
         "noImplicitAny": true,
         "noUnusedLocals": true,
         "removeComments": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
         "preserveConstEnums": true,
         "sourceMap": true,
         "experimentalDecorators": true,
