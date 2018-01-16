@@ -13,7 +13,6 @@
   "atom-ide-ui":
     "atom-ide-code-format": {}
     "atom-ide-diagnostics-ui":
-      autoVisibility: true
       showDiagnosticTraces: true
       showDirectoryColumn: true
       useExperimentalUi: true
@@ -221,7 +220,7 @@
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "zentabs-fix":
-    maximumOpenedTabs: 20
+    maximumOpenedTabs: 10
 ".basic.html.text":
   editor:
     autoIndent: true
