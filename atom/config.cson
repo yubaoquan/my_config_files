@@ -27,6 +27,8 @@
   "atom-terminal":
     app: "iTerm.app"
     args: "."
+  "atom-typescript":
+    autocompletionSuggestionPriority: 0
   "auto-close-html2":
     enabledFileTypes: [
       "html"
@@ -102,7 +104,6 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
     tabLength: 4
     tabType: "soft"
   emmet: {}
@@ -114,6 +115,8 @@
     art: "text.html.js"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  "git-blame":
+    colorCommitAuthors: true
   "git-control":
     showGitFlowButton: false
   "git-plus":
