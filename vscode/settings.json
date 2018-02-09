@@ -1,6 +1,6 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 22,
+    "editor.fontSize": 14,
     "editor.fontFamily": "Monaco",
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
@@ -15,5 +15,12 @@
     "git.confirmSync": false,
     "files.associations": {
         "*.mcss": "less"
-    }
+    },
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "clock.dateFormat": "yyyy-mm-dd hh:MM:ss TT",
+    "workbench.statusBar.feedback.visible": false,
+    "git.enableSmartCommit": true
 }

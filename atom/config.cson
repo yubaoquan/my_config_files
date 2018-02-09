@@ -16,6 +16,7 @@
       showDiagnosticTraces: true
       showDirectoryColumn: true
       useExperimentalUi: true
+    "atom-ide-outline-view": {}
     use: {}
   "atom-package-deps":
     ignored: [
@@ -104,6 +105,8 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
     tabLength: 4
     tabType: "soft"
   emmet: {}
@@ -117,13 +120,17 @@
     scrollToResultOnLiveSearch: true
   "git-blame":
     colorCommitAuthors: true
+    columnWidth: 314
   "git-control":
     showGitFlowButton: false
   "git-plus":
     diffs:
       wordDiff: true
     experimental:
+      autoFetch: 60
       useSplitDiff: true
+    general:
+      splitPane: "Right"
     remoteInteractions:
       pullBeforePush: true
   github:
@@ -194,6 +201,8 @@
     "newFolder-alias": "Folder"
     paste: true
     rename: true
+    revealActiveFile: true
+    "revealActiveFile-alias": "Reveal"
     searchInDirectory: true
     "searchInDirectory-alias": " Search"
     singleButtonType: "delete"
