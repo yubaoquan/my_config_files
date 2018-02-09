@@ -22,5 +22,10 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "clock.dateFormat": "yyyy-mm-dd hh:MM:ss TT",
     "workbench.statusBar.feedback.visible": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#0A0A0D",
+        "statusBar.debuggingBackground": "#511f1f"
+    }
 }
