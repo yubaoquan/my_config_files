@@ -1,0 +1,22 @@
+{
+  "name": "my_config_files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubaoquan/my_config_files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yubaoquan/my_config_files/issues"
+  },
+  "homepage": "https://github.com/yubaoquan/my_config_files#readme",
+  "dependencies": {
+    "eslint": "^4.17.0"
+  }
+}

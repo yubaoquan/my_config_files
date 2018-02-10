@@ -2,7 +2,7 @@
 // ++++
 /* = */
 function a () {
-    const arr = []
+     const arr = []
     const sth = arr
     [1, 2, 3].forEach(n => {
         console.info(n)
@@ -16,7 +16,7 @@ function a () {
     const obj = { a: 1};
     console.info(obj);
     // xxxx
-    const str =  'abcdefggggggg99999999999999999999999999999999999999999999gggggggggggggggggggggggggggggggggggggggggg';
+    const str =  "abcdefggggggg99999999999999999999999999999999999999999999gggggggggggggggggggggggggggggggggggggggggg";
     const str2 =    `abcdefggggggg999999asdfadf99999999999999999999999999999999999999gggggggggggggggggggggggggggggggggggggggggg`;
     console.info(str, str2);
 
