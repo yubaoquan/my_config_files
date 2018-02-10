@@ -43,5 +43,13 @@
     {
         "key": "cmd+r",
         "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.switchWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.switchWindow"
     }
 ]
