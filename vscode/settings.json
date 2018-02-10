@@ -28,5 +28,6 @@
         "statusBar.noFolderBackground" : "#0A0A0D",
         "statusBar.debuggingBackground": "#511f1f"
     },
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.snippetSuggestions": "top"
 }
