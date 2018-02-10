@@ -92,6 +92,7 @@
         ],
         "no-var-keyword": true,
         "no-unused-variable": [true],
-        "prefer-method-signature": true
+        "prefer-method-signature": true,
+        "quotmark": [true, "single"]
     }
 }
