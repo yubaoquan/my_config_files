@@ -20,7 +20,7 @@
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "clock.dateFormat": "yyyy-mm-dd hh:MM:ss TT",
+    "clock.dateFormat": "yyyy-mm-dd HH:MM:ss",
     "workbench.statusBar.feedback.visible": false,
     "git.enableSmartCommit": true,
     "workbench.colorCustomizations": {
@@ -59,5 +59,7 @@
             "history": true,
             "remote": false
         }
-    }
+    },
+    "gitlens.blame.format": "${author} ${id|15-}",
+    "gitlens.statusBar.enabled": false
 }
