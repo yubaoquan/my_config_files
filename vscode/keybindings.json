@@ -19,14 +19,6 @@
         "command": "-workbench.action.showCommands"
     },
     {
-        "key": "cmd+up",
-        "command": "git.push"
-    },
-    {
-        "key": "cmd+down",
-        "command": "git.pull"
-    },
-    {
         "key": "cmd+right",
         "command": "git.fetch"
     },
