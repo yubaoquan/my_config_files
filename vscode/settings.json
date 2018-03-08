@@ -62,5 +62,6 @@
     },
     "gitlens.blame.format": "${author|15} ${id|10-}",
     "gitlens.statusBar.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false
+    "gitlens.codeLens.recentChange.enabled": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false
 }
