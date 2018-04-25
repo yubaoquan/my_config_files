@@ -8,7 +8,7 @@
     "window.nativeTabs": true,
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
-    "files.autoGuessEncoding": true,
+    "files.autoGuessEncoding": false,
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.fontFamily": "monaco",
     "workbench.editor.enablePreview": false,
@@ -63,5 +63,50 @@
     "gitlens.blame.format": "${author|15} ${id|10-}",
     "gitlens.statusBar.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
-    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "fileHeaderComment.template": {
+        "js":[
+            "${commentbegin}",
+            "${commentprefix} Created on ${date}",
+            "${commentprefix} @author ${author}",
+            "${commentprefix} @description ${description}",
+            "${commentend}"
+        ],
+        "html":[
+            "<!--",
+            " Created on ${date}",
+            " @author ${author}",
+            " @description ${description}",
+            "-->"
+        ]
+    },
+    "fileHeaderComment.parameter": {
+        "*": {
+            "author": "yubaoquan",
+            "description": "---"
+        }
+    },
+    "sync.gist": "922a644a9a258f14de6cdde1d37cd0e3",
+    "sync.lastUpload": "2018-04-20T08:03:07.399Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true
 }
