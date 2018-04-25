@@ -237,7 +237,7 @@
         // 多行字符串要相加，而不是用链接符
         "no-multi-str": 1,
         // 字符串使用单引号
-        "quotes": ["error", "backtick"],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
         // 禁止同名导入/导出
         // import { foo as foo } from "bar";
         // export { foo as foo };
@@ -280,6 +280,8 @@
             }
         ],
         "no-unexpected-multiline": "error",
-        "no-shadow-restricted-names": "error"
+        "no-shadow-restricted-names": "error",
+        "prefer-arrow-callback": "error",
+        "prefer-template": "error"
     }
 }
