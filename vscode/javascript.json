@@ -23,7 +23,7 @@
     "arrowFunction": {
         "prefix": "af",
         "body": [
-            "function($1) {",
+            "($1) => {",
             "    $2",
             "}"
         ]

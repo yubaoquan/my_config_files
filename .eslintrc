@@ -143,11 +143,6 @@
         "no-caller": "error",
         //禁止不必要的 .call() 和 .apply()
         "no-useless-call": "error",
-        //this的别名强制使用ctx
-        "consistent-this": [
-            "error",
-            "ctx"
-        ],
         //禁止使用eval
         "no-eval": "error",
         //禁止使用__proto__
@@ -194,17 +189,11 @@
         "no-undef": "error",
         "arrow-spacing": "error",
         // let和const优先使用const
-        "prefer-const": "error",
+        // "prefer-const": "error",
         // 注释双斜杠后加一个空格, ----和++++例外
         "spaced-comment": [
             "error",
-            "always",
-            {
-                "exceptions": [
-                    "-",
-                    "+"
-                ]
-            }
+            "always"
         ],
         // 代码块花括号内不允许有空行
         "padded-blocks": [
@@ -263,10 +252,6 @@
             {
                 "allowParens": true
             }
-        ],
-        "arrow-parens": [
-            "warn",
-            "as-needed"
         ],
         "no-var": "error",
         "no-const-assign": "error",

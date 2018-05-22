@@ -98,7 +98,7 @@
         }
     },
     "sync.gist": "922a644a9a258f14de6cdde1d37cd0e3",
-    "sync.lastUpload": "2018-04-20T08:03:07.399Z",
+    "sync.lastUpload": "2018-04-28T07:30:51.925Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -108,5 +108,34 @@
     "sync.quietSync": false,
     "sync.askGistName": false,
     "sync.removeExtensions": true,
-    "sync.syncExtensions": true
+    "sync.syncExtensions": true,
+    "editor.wordWrap": "on",
+    "gitlens.menus": {
+        "editor": {
+            "blame": true,
+            "clipboard": false,
+            "compare": false,
+            "details": false,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": false,
+            "history": false,
+            "remote": false
+        },
+        "editorTab": {
+            "compare": false,
+            "history": false,
+            "remote": false
+        },
+        "explorer": {
+            "compare": true,
+            "history": true,
+            "remote": false
+        }
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.gitExplorer.files.layout": "auto"
 }
