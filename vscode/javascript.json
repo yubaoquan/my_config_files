@@ -203,5 +203,25 @@
     "todo": {
         "prefix": "td",
         "body": "// TODO "
+    },
+    "module.exports": {
+        "prefix": "me",
+        "body": "module.exports = "
+    },
+    "module.exports function": {
+        "prefix": "mef",
+        "body": [
+            "module.expors = ($1) => {",
+            "    $2",
+            "}"
+        ]
+    },
+    "module.exports object": {
+        "prefix": "meo",
+        "body": [
+            "module.expors = {",
+            "    $2",
+            "}"
+        ]
     }
 }
