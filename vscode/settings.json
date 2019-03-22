@@ -1,17 +1,16 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "source code variable",
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "all",
     "window.nativeTabs": true,
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
-    "files.autoGuessEncoding": true,
+    "files.autoGuessEncoding": false,
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.fontFamily": "monaco",
-    "workbench.editor.enablePreview": false,
     "git.confirmSync": false,
     "files.associations": {
         "*.mcss": "less"
@@ -19,47 +18,156 @@
     "window.zoomLevel": 0,
     "explorer.confirmDelete": false,
     "git.autofetch": true,
-    "workbench.colorTheme": "Visual Studio Dark",
     "clock.dateFormat": "yyyy-mm-dd HH:MM:ss",
     "workbench.statusBar.feedback.visible": false,
     "git.enableSmartCommit": true,
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#1A1A1A",
-        "statusBar.noFolderBackground" : "#0A0A0D",
-        "statusBar.debuggingBackground": "#511f1f"
+      "statusBar.background": "#1A1A1A",
+      "statusBar.noFolderBackground": "#0A0A0D",
+      "statusBar.debuggingBackground": "#511f1f",
+      "scrollbarSlider.activeBackground": "#80CBC450",
+      "progressBar.background": "#80CBC4",
+      "tab.activeBorder": "#80CBC4",
+      "editorWidget.resizeBorder": "#80CBC4",
+      "panelTitle.activeBorder": "#80CBC4"
     },
     "editor.detectIndentation": false,
     "editor.snippetSuggestions": "top",
     "gitlens.currentLine.enabled": false,
-    "gitlens.advanced.menus": {
-        "editorContext": {
+    "gitlens.blame.format": "${author|15} ${id|10-}",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "fileHeaderComment.template": {
+        "js":[
+            "${commentbegin}",
+            "${commentprefix} Created on ${date}",
+            "${commentprefix} @author ${author}",
+            "${commentprefix} @description ${description}",
+            "${commentend}"
+        ],
+        "html":[
+            "<!--",
+            " Created on ${date}",
+            " @author ${author}",
+            " @description ${description}",
+            "-->"
+        ]
+    },
+    "fileHeaderComment.parameter": {
+        "*": {
+            "author": "yubaoquan",
+            "description": "---"
+        }
+    },
+    "sync.gist": "922a644a9a258f14de6cdde1d37cd0e3",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "editor.wordWrap": "on",
+    "gitlens.menus": {
+        "editor": {
             "blame": true,
-            "copy": false,
+            "clipboard": false,
+            "compare": false,
             "details": false,
-            "fileDiff": false,
             "history": false,
-            "lineDiff": false,
             "remote": false
         },
-        "editorTitle": {
+        "editorGroup": {
             "blame": true,
-            "fileDiff": false,
-            "history": false,
-            "remote": false,
-            "status": false
-        },
-        "editorTitleContext": {
-            "blame": false,
-            "fileDiff": false,
+            "compare": false,
             "history": false,
             "remote": false
         },
-        "explorerContext": {
-            "fileDiff": true,
+        "editorTab": {
+            "compare": false,
+            "history": false,
+            "remote": false
+        },
+        "explorer": {
+            "compare": true,
             "history": true,
             "remote": false
         }
     },
-    "gitlens.blame.format": "${author|15} ${id|10-}",
-    "gitlens.statusBar.enabled": false
-}
+    "files.insertFinalNewline": true,
+    "html.format.indentInnerHtml": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "typescript.tsserver.log": "verbose",
+    "emmet.includeLanguages": {
+      "typescript": "typescriptreact",
+      "vue-html": "html"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "editor.fontLigatures": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.overrideCopy": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "css.lint.duplicateProperties": "error",
+    "css.lint.hexColorLength": "ignore",
+    "css.lint.idSelector": "warning",
+    "css.lint.ieHack": "warning",
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+    ],
+    "prettier.disableLanguages": [],
+    "gitlens.views.repositories.enabled": false,
+    "gitlens.views.repositories.files.layout": "auto",
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.lineHistory.enabled": false,
+    "files.exclude": {
+      "**/.git": false
+    },
+    "editor.smoothScrolling": true,
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindings": [{
+      "before": ["<space>"],
+      "after": ["<leader>", "<leader>", "<leader>", "j"]
+    }
+  ],
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "[html]": {
+    "editor.wordWrapColumn": 120
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.wordWrapColumn": 100,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "spaces-inside-braces.enableForBrackets": false,
+  "spaces-inside-braces.enableForParens": false,
+  "spaces-inside-braces.enableForAngle": false,
+  "javascript.suggestionActions.enabled": false,
+  "tslint.alwaysShowRuleFailuresAsWarnings": false,
+  "vim.startInInsertMode": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+"workbench.colorTheme": "Visual Studio Dark",
+"editor.tabSize": 2,
+"workbench.tree.indent": 15
+  }

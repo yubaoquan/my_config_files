@@ -19,18 +19,6 @@
         "command": "-workbench.action.showCommands"
     },
     {
-        "key": "cmd+up",
-        "command": "git.push"
-    },
-    {
-        "key": "cmd+down",
-        "command": "git.pull"
-    },
-    {
-        "key": "cmd+right",
-        "command": "git.fetch"
-    },
-    {
         "key": "cmd+d",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
@@ -45,11 +33,59 @@
         "command": "workbench.action.reloadWindow"
     },
     {
-        "key": "cmd+w",
-        "command": "workbench.action.switchWindow"
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+w",
-        "command": "-workbench.action.switchWindow"
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "-extension.vim_ctrl+j",
+      "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    {
+      "key": "cmd+j",
+      "command": "-workbench.action.togglePanel"
+    },
+    {
+      "key": "cmd+j",
+      "command": "editor.action.joinLines",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "-editor.action.joinLines",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+l",
+      "command": "editor.action.transformToLowercase"
+    },
+    {
+      "key": "shift+alt+u",
+      "command": "-extension.updateSettings"
+    },
+    {
+      "key": "shift+alt+u",
+      "command": "editor.action.transformToUppercase"
+    },
+    {
+      "key": "alt+cmd+g shift+h",
+      "command": "-gitlens.showQuickRepoHistory",
+      "when": "gitlens:enabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+      "key": "alt+cmd+/",
+      "command": "editor.action.blockComment",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+a",
+      "command": "-editor.action.blockComment",
+      "when": "editorTextFocus && !editorReadonly"
     }
-]
+  ]
