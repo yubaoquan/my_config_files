@@ -1,6 +1,9 @@
 {
   "extends": [
-    "tslint-eslint-rules"
+    "tslint-eslint-rules",
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-hooks"
   ],
   "cliOptions": {
     "exclude": [
@@ -63,35 +66,9 @@
       "ban-keywords"
     ],
     "prefer-const": true,
-    "typedef-whitespace": [
-      true,
-      {
-        "call-signature": "nospace",
-        "index-signature": "nospace",
-        "parameter": "nospace",
-        "property-declaration": "nospace",
-        "variable-declaration": "nospace"
-      }, {
-        "call-signature": "onespace",
-        "index-signature": "onespace",
-        "parameter": "onespace",
-        "property-declaration": "onespace",
-        "variable-declaration": "onespace"
-      }
-    ],
     "no-empty-interface": true,
-    "typedef": [
-      true,
-      "call-signature",
-      "arrow-call-signature",
-      "parameter",
-      "arrow-parameter",
-      "property-declaration",
-      "variable-declaration",
-      "member-variable-declaration"
-    ],
     "no-var-keyword": true,
-    "no-unused-variable": [true],
+    "no-unused-variable": [true, "check-parameters"],
     "prefer-method-signature": true,
     "quotemark": {
       "options": ["single", "jsx-double"],
@@ -100,6 +77,14 @@
     "ordered-imports": false,
     "no-console": {
       "severity": "warn"
-    }
+    },
+    "object-literal-sort-keys": false,
+    "no-submodule-imports": false,
+    "member-access": false,
+    "jsx-no-multiline-js": false,
+    "react-hooks-nesting": "error",
+    "no-implicit-dependencies": false,
+    "jsx-boolean-value": [true, "never"],
+    "arrow-parens": [true, "ban-single-arg-parens"]
   }
 }
